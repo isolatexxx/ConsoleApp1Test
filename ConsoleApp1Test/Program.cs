@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+
+
 
 namespace ConsoleApp1Test
 {
@@ -13,6 +16,20 @@ namespace ConsoleApp1Test
 
             Console.WriteLine("hello");
             Console.WriteLine("привет мир");
+
+            int[] a = { 1, 2, 3 };
+
+            foreach (int i in a)
+            {
+                Console.WriteLine(i); 
+            }
+
+            Console.WriteLine("Connect...");
+            Console.Write("\a");
+            Console.WriteLine("Done!");
+
+            
+
         }
     }
 }
