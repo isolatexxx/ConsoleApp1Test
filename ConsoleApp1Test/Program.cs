@@ -32,7 +32,11 @@ namespace ConsoleApp1Test
             Console.WriteLine("я уже сделал вывод бита в консоль в ветке feature");
 
             Console.WriteLine("hello");
-            
+            Console.WriteLine("hello");
+            Console.WriteLine("hello");
+            Console.WriteLine("hello");
+            Console.WriteLine("hello");
+            Console.WriteLine("hello");
 
         }
     }
